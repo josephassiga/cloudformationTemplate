@@ -1,0 +1,20 @@
+{
+  "AWSTemplateFormatVersion":"2010-09-09",
+  "Description":"Basic stack to launch an instances",
+  "Resources":
+   {
+              "MyEC2Instance":
+              { 
+  	                     "Type" : "AWS::EC2::Instance",
+                             "Properties" :
+                              {
+                                          "ImageId" : "ami-f9619996",
+                                          "InstanceType": "t2.micro",
+                                          "AvailabilityZone":"eu-central-1a",
+                                          "Tags":[{"Key":"Name","Value":"EC2WITHCF"}]
+                              } 
+              }
+   }
+
+}
+
