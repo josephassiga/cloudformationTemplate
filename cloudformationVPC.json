@@ -1,4 +1,4 @@
-rameters": {
+Parameters": {
     "CIDRRange": {
       "Description": "VPCCIDR Range (will be a /16 block)",
       "Type": "String",
